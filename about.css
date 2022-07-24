@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  font-family: "lato", sans-serif;
+}
+img {
+  cursor: pointer;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+.desktop-top-nav {
+  display: none;
+}
+.desktop-nav {
+  display: none;
+}
+.hamburger {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.bar {
+  width: 28px;
+  height: 5px;
+  display: block;
+  background: #333;
+  margin: 3px 0;
+}
+.desktop-nav {
+  display: none;
+}
+/*Get the background image*/
+#headline .background {
+  background: url("images/desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-bottom: 40px;
+  padding-top: 0;
+}
+.content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+.content h1,
+.content h2,
+.content p,
+.content h3,
+.content h4 {
+  text-align: center;
+}
+.content h1 {
+  color: #ee9678;
+  align-self: center;
+  font-size: 200%;
+}
+.content h2 {
+  color: #f35826;
+  font-size: 250%;
+}
+.content p {
+  border: 4px solid #fff;
+  line-height: 25px;
+  padding: 1em;
+  background: #fff;
+}
+.content h3 {
+  margin-top: 2em;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 25px;
+}
+.content h4 {
+  margin-top: 7px;
+  font-size: 18px;
+}
+#info {
+  margin-top: 2em;
+}
+#info h4 {
+  font-size: 20px;
+}
+#info p {
+  margin-top: 1em;
+  font-size: 15px;
+  padding: 1em 1em;
+}
+.logo-cont {
+  display: flex;
+  border: 4px solid #fff;
+  align-self: center;
+}
+#past-concerts {
+  padding-top: 3em;
+  border-top: 1px solid rgb(224, 221, 221);
+}
+#past-concerts h4 {
+  font-size: 18px;
+}
+#past-concerts p {
+  padding: 1em 1em;
+  font-size: 15px;
+}
+.col-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#partner {
+  padding: 3.5em;
+  background: #303236;
+}
+#partner h6 {
+  color: #fff;
+  margin-top: -2em;
+  font-size: 16px;
+}
+.partner-list {
+  display: flex;
+  color: grey;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1.3em;
+}
+.foot {
+  padding: 3em;
+}

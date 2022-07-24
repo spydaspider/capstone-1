@@ -1,0 +1,93 @@
+/* Core Styles */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'lato', sans-serif;
+ 
+}
+img{
+    cursor: pointer;
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+.desktop-top-nav{
+    display: none;
+}
+.desktop-nav{
+    display: none;
+}
+.hamburger{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.bar{
+    width: 28px;
+    height: 4px;
+    display: block;
+    background: #333;
+    margin: 6px 0;
+ }
+ .desktop-nav{
+    display: none;
+ }
+ /*Get the background image*/
+ #headline .background{
+    background: url("images/desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+    padding-bottom: 50px;
+    padding-top: 0;
+ }
+ .content{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+ }
+ .content h1,.content h2,.content p,.content h3, .content h4{
+    text-align: left;
+ }
+ .content h1{
+    color: #ee9678;
+    align-self: flex-start;
+    font-size: 150%;
+
+ }
+ .content h2{
+    color: #f35826;
+    font-size: 200%;
+ }
+ .content p{
+    border: 4px solid #fff;
+    line-height: 25px;
+    padding: 1em;
+
+ }
+ .content h3{
+    color: #333;
+    font-weight: bold;
+    align-self: flex-start;
+    margin-top: 1.5em;
+
+}
+ .content h4{
+    margin-top: .7em;
+    align-self: flex-start;
+ }
+

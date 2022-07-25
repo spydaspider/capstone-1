@@ -268,4 +268,17 @@ h6 {
   .desktop-nav{
     display: block;
   }
+  .top-bar{
+    background: #585858;
+  }
+  .top-bar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    padding-right:15%;
+  }
+  .top-bar a{
+    color: #fff;
+  }
   }

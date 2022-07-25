@@ -40,6 +40,7 @@ h6 {
   padding-left: 25px;
 }
 
+
 .bar {
   width: 28px;
   height: 5px;
@@ -266,10 +267,12 @@ h6 {
   }
   .desktop-top-nav{
     display: block;
+    
   }
   
   .top-bar{
     background: #585858;
+    
   }
   .top-bar ul{
     display: flex;
@@ -301,12 +304,53 @@ h6 {
   .right-nav a{
     color:#585858;
   }
+  .campaign-style{
+    border: 5px solid  #f35826;
+    padding: 0.5em;
+    
+  }
+  .campaign-style a{
+    color:#f35826;
+  }
+  
   .background{
     display: grid;
     grid-template-columns:  repeat(12,1fr);
+  }
+  .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    gap: 0.5%;
+    
+  }
+  
+  .card-button{
+    display: none;
   }
   .content{
     grid-column: 2/10;
     padding: 10% 0;
   }
+  .icon-section{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .card{
+    display: flex;
+    flex-flow: column;
+
+  }
+  .dt-link{
+    display: block;
+    padding-bottom: 5%;
+
+  }
+  .dt-link a{
+    color: #fff;
+  }
+  
   }

@@ -116,6 +116,9 @@ h6 {
 #past-concerts {
   padding-top: 3em;
   border-top: 1px solid rgb(224, 221, 221);
+  
+  
+
 }
 #past-concerts h4 {
   font-size: 18px;
@@ -124,11 +127,51 @@ h6 {
   padding: 1em 1em;
   font-size: 15px;
 }
-.col-flex {
+
+.col-flex{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  padding-bottom: 5em;
+  gap: 1em;
+
+}
+.past-card-1{
+  grid-column: 2/12;
+  position: relative;
+}
+.past-card-2{
+  grid-column: 2/12;
+  position: relative;
+}
+.overlay{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  background:hsl(4, 90%, 55%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
 }
+
+
+
+
+.past-date{
+   color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.col-flex h5{
+  color: #fff;
+  font-size: 18px;
+  
+
+}
+
 #partner {
   padding: 3.5em;
   background: #303236;
@@ -147,4 +190,7 @@ h6 {
 }
 .foot {
   padding: 3em;
+}
+.card-bg{
+
 }

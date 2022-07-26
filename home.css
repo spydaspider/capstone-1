@@ -224,6 +224,10 @@ h6 {
   border: 2px solid rgb(235, 230, 230);
   cursor: pointer;
 }
+.more:hover{
+  border: 1px solid #f35826;
+  color: #f35826;
+}
 .after-more {
   display: none;
 }
@@ -233,6 +237,7 @@ h6 {
 #partner {
   padding: 3.5em;
   background: #303236;
+  display: none;
 }
 #partner h6 {
   color: #fff;
@@ -247,10 +252,15 @@ h6 {
   justify-content: space-around;
   margin-top: 1.3em;
 }
+.partner.active{
+  display:none;
+}
+
 .foot {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   padding: 3em;
+  display: none;
 }
 .foot-wrap {
   grid-column: 1/12;
@@ -261,6 +271,14 @@ h6 {
 .foot-content{
   margin-top: 1em;
 }
+.dt-foot-logo{
+    display: none;
+}
+
+.foot.active{
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -396,4 +414,12 @@ h6 {
     align-items: center;
     gap: 10%;
   }
+  .foot-logo{
+
+    display: none;
+  }
+  .dt-foot-logo{
+    display: block;
+  }
+  
 }

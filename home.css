@@ -47,6 +47,52 @@ h6 {
   background: #333;
   margin: 3px 0;
 }
+
+.x-bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background:#fff;
+}
+.x-bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg); 
+}
+.x-bar:nth-child(2){
+   opacity: 0;
+}
+.x-bar:nth-child(3){
+  transform:translateY(-8px) rotate(-45deg);
+  
+}
+.ex{
+  align-self: flex-end;
+  padding-right: 13%;
+}
+
+.mobile-menu{
+  background:#f5531d;
+  display: flex;
+  flex-flow: column;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.8;
+  position: fixed;
+  left: -120%;
+  transition: 0.3s;
+  padding-top: 4em;
+  margin-top: -0.3em;
+  z-index: 1;
+}
+.mobile-menu a{
+    color: #fff;
+    font-size:40px;
+}
+.mobile-menu.active{
+       left:0;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -160,7 +206,7 @@ h6 {
   background: #f35826;
   color: #fff;
   padding: 1.7em 2em;
-  border:none;
+  border: none;
 
   font-size: 20px;
 }
@@ -212,7 +258,7 @@ h6 {
   margin-top: 8px;
   text-align: left;
 }
-.more {
+/* .more {
   margin-top: 2em;
   margin-bottom: 2em;
   display: block;
@@ -223,8 +269,8 @@ h6 {
   background: white;
   border: 2px solid rgb(235, 230, 230);
   cursor: pointer;
-}
-.more:hover{
+} */
+/* .more:hover{
   border: 1px solid #f35826;
   color: #f35826;
 }
@@ -233,12 +279,12 @@ h6 {
 }
 .after-more.active {
   display: block;
-}
+} */
 #partner {
   padding: 3.5em;
   background: #303236;
-  display: none;
 }
+
 #partner h6 {
   color: #fff;
   margin-top: -2em;
@@ -252,15 +298,14 @@ h6 {
   justify-content: space-around;
   margin-top: 1.3em;
 }
-.partner.active{
-  display:none;
+.partner.active {
+  display: none;
 }
 
 .foot {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   padding: 3em;
-  display: none;
 }
 .foot-wrap {
   grid-column: 1/12;
@@ -268,14 +313,14 @@ h6 {
   align-items: center;
   gap: 15%;
 }
-.foot-content{
+.foot-content {
   margin-top: 1em;
 }
-.dt-foot-logo{
-    display: none;
+.dt-foot-logo {
+  display: none;
 }
 
-.foot.active{
+.foot.active {
   display: block;
 }
 
@@ -350,7 +395,7 @@ h6 {
     grid-column: 2/10;
     padding: 10% 0;
   }
-  
+
   .card-button {
     display: none;
   }
@@ -363,7 +408,6 @@ h6 {
     gap: 0.5%;
   }
 
-  
   .icon-section {
     display: flex;
     flex-flow: column;
@@ -414,12 +458,10 @@ h6 {
     align-items: center;
     gap: 10%;
   }
-  .foot-logo{
-
+  .foot-logo {
     display: none;
   }
-  .dt-foot-logo{
+  .dt-foot-logo {
     display: block;
   }
-  
 }

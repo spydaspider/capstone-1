@@ -430,11 +430,7 @@ h6 {
   .button-more {
     display: none;
   }
-  .before-more {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .after-more {
+  .speaker-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

@@ -341,6 +341,10 @@ h6 {
   display: block;
 }
 
+.foot-logo {
+  width: 17vw;
+}
+
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -386,6 +390,10 @@ h6 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .logo {
+    width: 100px;
   }
 
   .right-nav {
@@ -508,5 +516,6 @@ h6 {
 
   .dt-foot-logo {
     display: block;
+    width: 7vw;
   }
 }

@@ -277,6 +277,10 @@ h6 {
   display: none;
 }
 
+.foot-logo-mob {
+  width: 17vw;
+}
+
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -304,6 +308,10 @@ h6 {
 
   .desktop-top-nav {
     display: block;
+  }
+
+  .logo {
+    width: 100px;
   }
 
   .top-bar {
@@ -424,6 +432,7 @@ h6 {
 
   .foot-logo {
     display: block;
+    width: 17vw;
   }
 
   .foot-wrapper {

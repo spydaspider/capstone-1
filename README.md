@@ -1,8 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+Capstone 1.
+This is the first Microverse capstone project, in this project, we are to develop a website.
+The title of my website is Spytech Web Development Summit. It was design was inspired by Cindy Shin's design in Behance.
 
-Spytech Web Development Concert Website.
+Spytech Web Development Summit Website.
 
-Spytech Web development concert aims to establish a solid foundation in software development.
+Spytech Web development summit aims to establish a solid foundation in software development.
 
 ## Built With
 
@@ -23,12 +26,14 @@ Click on the code button and dowload a zip file for the project locally.
 Locate the index.html file and double click it to view webpage.
 
 ### Prerequisites
+- Basic HTML & CSS knowledge
+- Basic Javasript knowledge
 Node.js, stylelint, browser for displaying it's content.
 install node package manager(npm): npm helps to install stylelint.
 
 
 ### Setup
-Download and install browser.
+git clone https://github.com/spydaspider/capstone-1.git
 
 ### Usage
 Navigate through the web page to find the information you need. Use the links in the pages to move to different sections.
@@ -59,9 +64,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Hat tip to [Shin in Behance](https://www.behance.net/adagio07).
+
 
 ## 📝 License
 
